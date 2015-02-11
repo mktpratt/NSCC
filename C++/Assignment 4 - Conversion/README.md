@@ -1,0 +1,2 @@
+# Assignment 4 - Conversion
+My fourth C++ assignment was to create an application that would take a .cpp file and convert it's text (code) into a valid html page. This was done by taking the "<" and ">" symbols and replacing them with "&lt" and "&rt".

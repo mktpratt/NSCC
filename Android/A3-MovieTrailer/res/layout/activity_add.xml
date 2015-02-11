@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:scrollbars="vertical" >
+  
+    <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:orientation="vertical"  
+        android:layout_height="fill_parent"> 
+        
+        <TextView  
+    		android:id="@+id/TextViewTitle"  
+    		android:layout_width="fill_parent"  
+   			android:layout_height="wrap_content"
+   			android:gravity="center"  
+    		android:text="@string/addTrailer"  
+   			android:textSize="10pt">  
+		</TextView> 
+		<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal" >
+
+    		<ImageView
+        		android:id="@+id/icon"
+        		android:layout_width="80dp"
+        		android:layout_height="80dp"
+        		android:contentDescription="@string/image"
+       			android:paddingLeft="10dp"
+        		android:paddingRight="10dp" />
+
+    		<Spinner
+        		android:id="@+id/spinnerMovie"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" />    
+    	</LinearLayout>
+    	<EditText
+            android:id="@+id/editTitle"           
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/movie_title"
+            android:inputType="textCapWords" >
+ 		</EditText>
+ 		<EditText
+            android:id="@+id/editDesc"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_desc"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="fill_parent" >
+ 		</EditText>
+
+ 		<RatingBar
+ 		    android:id="@+id/ratingBar"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_gravity="center"
+ 		    android:numStars="5"
+ 		    android:stepSize="0.5" />
+
+ 		<Button
+        	android:id="@+id/btnSubmit"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/button_submit">
+    	</Button>
+    </LinearLayout>  
+</ScrollView>

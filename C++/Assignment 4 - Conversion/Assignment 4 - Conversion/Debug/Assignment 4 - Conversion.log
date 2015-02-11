@@ -1,0 +1,17 @@
+﻿Build started 2/11/2015 9:57:07 AM.
+     1>Project "C:\Users\w0267422\Documents\GitHub\NSCC\C++\Assignment 4 - Conversion\Assignment 4 - Conversion\Assignment 4 - Conversion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\w0267422\Desktop\boost_1_57_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CPP_Reader.cpp main.cpp
+         main.cpp
+         CPP_Reader.cpp
+     1>c:\users\w0267422\documents\github\nscc\c++\assignment 4 - conversion\assignment 4 - conversion\cpp_reader.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\w0267422\Documents\GitHub\NSCC\C++\Assignment 4 - Conversion\Debug\Assignment 4 - Conversion.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Boost\1.57.0\VC\12.0 /LIBPATH:C:\Users\w0267422\Desktop\boost_1_57_0\stage\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\w0267422\Documents\GitHub\NSCC\C++\Assignment 4 - Conversion\Debug\Assignment 4 - Conversion.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\w0267422\Documents\GitHub\NSCC\C++\Assignment 4 - Conversion\Debug\Assignment 4 - Conversion.lib" /MACHINE:X86 Debug\CPP_Reader.obj
+         Debug\main.obj
+         Assignment 4 - Conversion.vcxproj -> C:\Users\w0267422\Documents\GitHub\NSCC\C++\Assignment 4 - Conversion\Debug\Assignment 4 - Conversion.exe
+     1>Done Building Project "C:\Users\w0267422\Documents\GitHub\NSCC\C++\Assignment 4 - Conversion\Assignment 4 - Conversion\Assignment 4 - Conversion.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.40
