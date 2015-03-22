@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatLibrary", "ChatLibrary\ChatLibrary.csproj", "{B2D778F3-C67B-4177-80FB-7B9DD6B7EADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatUI", "ChatUI\ChatUI.csproj", "{34C70DF2-BD85-439C-B0DE-F9F5EC23047E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://w0267422.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ChatLibrary\\ChatLibrary.csproj
+		SccProjectName1 = ChatLibrary
+		SccLocalPath1 = ChatLibrary
+		SccProjectUniqueName2 = ChatUI\\ChatUI.csproj
+		SccProjectName2 = ChatUI
+		SccLocalPath2 = ChatUI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D778F3-C67B-4177-80FB-7B9DD6B7EADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D778F3-C67B-4177-80FB-7B9DD6B7EADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D778F3-C67B-4177-80FB-7B9DD6B7EADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D778F3-C67B-4177-80FB-7B9DD6B7EADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C70DF2-BD85-439C-B0DE-F9F5EC23047E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C70DF2-BD85-439C-B0DE-F9F5EC23047E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C70DF2-BD85-439C-B0DE-F9F5EC23047E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C70DF2-BD85-439C-B0DE-F9F5EC23047E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
