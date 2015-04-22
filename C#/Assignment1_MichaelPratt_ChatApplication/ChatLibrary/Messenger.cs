@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ChatLibrary
 {
-    public class Messenger
+    abstract public class Messenger
     {
-        // I have no idea why, but this IP and Port are the only ones that allow this to work for me
-        // Port number found from https://msdn.microsoft.com/en-us/library/vstudio/ms178109(v=vs.100).aspx
-        // IP Address found from http://stackoverflow.com/questions/23403912/c-sharp-web-localhostport-works-127-0-0-1port-doesnt-work
-        private IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
-        private int portNum = 31544;
+
+        private IPAddress ipAddress = Dns.Resolve("localhost").AddressList[0];
+        private int portNum = 13000;
         private TcpClient client = null;
         private NetworkStream stream;
 
@@ -34,7 +32,7 @@ namespace ChatLibrary
             }
         }
         /// <summary>
-        /// connect method to be overloaded
+        /// Virtual connect method that is overloaded by the server and client
         /// </summary>
         public virtual void connect()
         {
@@ -45,38 +43,39 @@ namespace ChatLibrary
         /// Method used to send message used by both client and server
         /// </summary>
         /// <param name="data">The message being sent</param>
-        /// <returns>the message with "You: " in front of it</returns>
+        /// <returns>the message with Sent:  in front of it</returns>
         public string sendMsg(string data)
         {
 
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(data);
-            // Print the message
+            // Send back a response.
             stream.Write(msg, 0, msg.Length);
-            return ("You: " + data);
+            return ("Sent: " + data);
 
         }
 
         /// <summary>
-        /// Used by the client and server to receive messages
+        /// Used by the client and server to recieve messages
         /// </summary>
+        /// <returns>Either quit to exit or the message with Received:  in front of it</returns>
         public string receiveMsg()
         {
             Byte[] bytes = new Byte[256];
             string data;
             int i;
 
-            // Loop while there is still data to recieve 
+            //Loop to receive all the data sent by the client. 
             while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
             {
-                // Translate data bytes to a ASCII string
+                //Translate data bytes to a ASCII string.
                 data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
                 if (data == "quit")
                 {
-                    quit();
+                    return data;
                 }
                 else
                 {
-                    return (data);
+                    return ("Received: " + data);
                 }
 
             }
@@ -95,7 +94,7 @@ namespace ChatLibrary
         /// <summary>
         /// Getter for IP address
         /// </summary>
-        /// <returns> The IP address </returns>
+        /// <returns>The IP address</returns>
         public IPAddress getIpAddress()
         {
             return ipAddress;
@@ -104,7 +103,7 @@ namespace ChatLibrary
         /// <summary>
         /// Getter for port number
         /// </summary>
-        /// <returns> The port number </returns>
+        /// <returns>The port number</returns>
         public int getPortNum()
         {
             return portNum;
@@ -122,7 +121,7 @@ namespace ChatLibrary
         /// <summary>
         /// Getter for NetworkStream
         /// </summary>
-        /// <returns> The NetworkStream </returns>
+        /// <returns>The NetworkStream</returns>
         public NetworkStream getStream()
         {
             return stream;

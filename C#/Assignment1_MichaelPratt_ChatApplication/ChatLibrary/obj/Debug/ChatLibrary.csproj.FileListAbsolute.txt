@@ -1,0 +1,5 @@
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatLibrary\bin\Debug\ChatLibrary.dll
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatLibrary\bin\Debug\ChatLibrary.pdb
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatLibrary\obj\Debug\ChatLibrary.csprojResolveAssemblyReference.cache
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatLibrary\obj\Debug\ChatLibrary.dll
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatLibrary\obj\Debug\ChatLibrary.pdb

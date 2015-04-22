@@ -1,0 +1,19 @@
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatUI.exe.config
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatUI.exe
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatUI.pdb
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatLibrary.dll
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatLibrary.pdb
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.csprojResolveAssemblyReference.cache
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.exe
+C:\Users\MikeandMeag\Desktop\Mike School\PROG 2200\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.pdb
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatUI.exe.config
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.exe
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.pdb
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatUI.exe
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatUI.pdb
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatLibrary.dll
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatLibrary.pdb
+H:\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.csprojResolveAssemblyReference.cache
+C:\Users\MikeandMeag\Desktop\Mike School\Assignment1_MichaelPratt_ChatApplication\ChatUI\bin\Debug\ChatUI.exe.config
+C:\Users\MikeandMeag\Desktop\Mike School\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.exe
+C:\Users\MikeandMeag\Desktop\Mike School\Assignment1_MichaelPratt_ChatApplication\ChatUI\obj\Debug\ChatUI.pdb
